@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+}
+
+.cell--alive {
+    border: 1px solid white;
+    background-color: black;
+}
+
+.cell--dead {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1004px;
+    height: fit-content;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.btn:hover {
+    filter: brightness(0.7);
+}
+
+.btn--green {
+    border-color: green;
+    background-color: rgba(0, 255, 0, 0.6);
+}
+
+.btn--blue {
+    border-color: blue;
+    background-color: rgba(0, 0, 255, 0.6);
+}
+
+.btn--red {
+    border-color: red;
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+.container {
+    width: fit-content;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+

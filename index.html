@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Conway's game of life</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Conway's game of life</h1>
+        <h2>Number of turns: <span id="number-of-turns">0</span></h2>
+        <div id="grid" class="grid">
+
+        </div>
+        <div class="rules">
+            <ul>
+                <li>Click on each cell you want to be alive</li>
+                <li>Then click on start button to run the simulation</li>
+                <li>Click on the refresh button to reset the grid</li>
+            </ul>
+            <button id="start" class="btn btn--green">Start</button>
+            <button id="refresh" class="btn btn--blue">Refresh</button>
+            <button id="stop" class="btn btn--red">Stop</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
